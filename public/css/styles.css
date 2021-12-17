@@ -25,6 +25,11 @@ body {
     color: var(--body-color);
 }
 
+.body-container {
+    display: flex;
+    justify-content: center;
+}
+
 h1,
 h2,
 h3 {
@@ -275,6 +280,7 @@ input {
     border-radius: 7px;
     box-shadow: 0 0 20px 10px #f3f3f3;
     overflow: hidden;
+    max-width: 1200px;
 }
 
 .card--primary .card__header {
@@ -390,7 +396,7 @@ input {
 }
 
 .quote__author {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 500;
     font-style: normal;
     margin-bottom: 0;
@@ -399,23 +405,13 @@ input {
 .quote__company {
     color: var(--heading-color);
     opacity: 0.4;
-    font-size: 2rem;
+    font-size: 1.6rem;
     font-style: normal;
 }
 
 .quote__line {
     position: relative;
-    bottom: 10px;
-}
-
-@media screen and (min-width: 1024px) {
-    .quote__author {
-        font-size: 2.4rem;
-    }
-
-    .quote__company {
-        font-size: 1.6rem;
-    }
+    bottom: 1rem;
 }
 
 /*Grids*/
@@ -440,6 +436,7 @@ input {
 
 .testimonial {
     padding: 3rem;
+    text-align: center;
 }
 
 .testimonial__image {
@@ -458,19 +455,7 @@ input {
     right: -3.2rem;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    .testimonial .quote,
-    .testimonial .quote__author {
-        font-size: 1.8rem;
-    }
-}
-
 @media screen and (min-width: 1024px) {
-    .testimonial .quote,
-    .testimonial .quote__author {
-        font-size: 2.4rem;
-    }
-
     .testimonial .quote {
         margin-left: 6rem;
     }
