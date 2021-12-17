@@ -449,6 +449,7 @@ input {
 .testimonial__image {
     width: 95%;
     position: relative;
+    justify-self: center;
 }
 
 .testimonial__image > img {
