@@ -15,21 +15,20 @@
         <link rel="stylesheet" href="public/css/styles.css" />
     </head>
     <body>
-        <div class="callout callout--primary">
-            <div class="grid grid--cols-2">
-                <div class="callout__content">
-                    <h2 class="callout__heading">Ready to get started?</h2>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur, adipisicing
-                        elit. Libero dolorem laborum consequatur quasi dolore ut
-                        aliquid omnis beatae cum assumenda numquam reprehenderit
-                        in sit quod sunt animi explicabo, iusto nulla.
-                    </p>
-                </div>
-                <a href="#" class="btn btn--secondary btn--stretched"
-                    >Get started</a
-                >
-            </div>
-        </div>
+        <nav class="nav collapsible">
+            <a href=""
+                ><img src="public/assets/images/logo.svg" alt="Logo"
+            /></a>
+            <svg class="icon icon--white nav__toggler">
+                <use xlink:href="public/assets/icons/sprite.svg#menu"></use>
+            </svg>
+            <ul class="list nav__list collapsible__content">
+                <li class="nav__item"><a href="#">Hosting</a></li>
+                <li class="nav__item"><a href="#">VPS</a></li>
+                <li class="nav__item"><a href="#">Domain</a></li>
+                <li class="nav__item"><a href="#">Pricing</a></li>
+            </ul>
+        </nav>
+        <script src="js/main.js"></script>
     </body>
 </html>
