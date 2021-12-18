@@ -600,6 +600,7 @@ input {
 .nav__list {
     width: 100%;
     margin: 0;
+    font-size: 1.6rem;
 }
 
 .nav__item {
@@ -636,7 +637,6 @@ input {
     .nav__list {
         width: auto;
         display: flex;
-        font-size: 2rem;
         opacity: 1;
         max-height: 100%;
     }
