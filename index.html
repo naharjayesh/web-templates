@@ -4,7 +4,7 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Cloud Website</title>
+        <title>Happy Hosts - Go online for just $9</title>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -13,18 +13,25 @@
         />
         <link rel="stylesheet" href="public/css/reset.css" />
         <link rel="stylesheet" href="public/css/styles.css" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <header>
             <!--Nav-Bar-->
             <nav class="nav collapsible">
-                <a href=""
+                <a href="" data-aos="slide-down"
                     ><img src="public/assets/images/logo.svg" alt="Logo"
                 /></a>
-                <svg class="icon icon--white nav__toggler">
+                <svg
+                    class="icon icon--white nav__toggler"
+                    data-aos="slide-down"
+                >
                     <use xlink:href="public/assets/icons/sprite.svg#menu"></use>
                 </svg>
-                <ul class="list nav__list collapsible__content">
+                <ul
+                    class="list nav__list collapsible__content"
+                    data-aos="slide-down"
+                >
                     <li class="nav__item"><a href="#">Hosting</a></li>
                     <li class="nav__item"><a href="#">VPS</a></li>
                     <li class="nav__item"><a href="#">Domain</a></li>
@@ -35,7 +42,10 @@
             <!--Hero Block-->
             <section class="block block--dark block--skewed-left hero">
                 <div class="container grid grid--cols-2">
-                    <header class="block__header hero__content">
+                    <header
+                        class="block__header hero__content"
+                        data-aos="fade-right"
+                    >
                         <h1 class="block__heading">Cloud Hosting for Pros</h1>
                         <p class="hero__tagline">
                             Deploy your website in less than 60 seconds.
@@ -61,6 +71,7 @@
                         />
                         <img
                             class="hero__image"
+                            data-aos="fade-left"
                             src="public/assets/images/banner.png"
                             alt=""
                         />
@@ -70,7 +81,7 @@
         </header>
 
         <!--Domain Block-->
-        <section class="block container block-domain">
+        <section class="block container block-domain" data-aos="slide-up">
             <header class="block__header">
                 <h2>Starting at 9$ per month</h2>
                 <p>
@@ -104,7 +115,7 @@
         </section>
 
         <!--Plans Block-->
-        <section class="block container block-plans">
+        <section class="block container block-plans" data-aos="fade-up">
             <div class="grid grid--cols-3">
                 <div class="plan">
                     <div class="card card--primary">
@@ -189,7 +200,7 @@
 
         <!--Feature Block-->
         <section class="block container">
-            <header class="block__header">
+            <header class="block__header" data-aos="zoom-out">
                 <h2>Host on the Clour to keep GROWING</h2>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -197,7 +208,7 @@
                 </p>
             </header>
 
-            <article class="grid grid--cols-2 feature">
+            <article class="grid grid--cols-2 feature" data-aos="slide-right">
                 <div class="feature__content">
                     <span class="icon-container">
                         <svg class="icon icon--primary feature__icon">
@@ -239,16 +250,16 @@
                     />
                 </picture>
             </article>
-            <article class="grid grid--cols-2 feature">
+            <article class="grid grid--cols-2 feature" data-aos="slide-left">
                 <div class="feature__content">
                     <span class="icon-container">
                         <svg class="icon icon--primary feature__icon">
                             <use
-                                xlink:href="public/assets/icons/sprite.svg#easy"
+                                xlink:href="public/assets/icons/sprite.svg#computer"
                             ></use>
                         </svg>
                     </span>
-                    <h3 class="feature__heading">Super easy to use</h3>
+                    <h3 class="feature__heading">Simply Fast Websites</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Libero dolorem laborum consequatur quasi dolore ut
@@ -261,36 +272,36 @@
                     <source
                         type="image/webp"
                         srcset="
-                            public/assets/images/easy.webp    1x,
-                            public/assets/images/easy@2x.webp,
+                            public/assets/images/fast.webp    1x,
+                            public/assets/images/fast@2x.webp,
                             2x
                         "
                     />
                     <source
                         type="image/jpg"
                         srcset="
-                            public/assets/images/easy.jpg    1x,
-                            public/assets/images/easy@2x.jpg,
+                            public/assets/images/fast.jpg    1x,
+                            public/assets/images/fast@2x.jpg,
                             2x
                         "
                     />
                     <img
                         class="feature__image"
-                        src="public/assets/images/easy@2x.jpg"
+                        src="public/assets/images/fast@2x.jpg"
                         alt=""
                     />
                 </picture>
             </article>
-            <article class="grid grid--cols-2 feature">
+            <article class="grid grid--cols-2 feature" data-aos="slide-right">
                 <div class="feature__content">
                     <span class="icon-container">
                         <svg class="icon icon--primary feature__icon">
                             <use
-                                xlink:href="public/assets/icons/sprite.svg#easy"
+                                xlink:href="public/assets/icons/sprite.svg#wordpress"
                             ></use>
                         </svg>
                     </span>
-                    <h3 class="feature__heading">Super easy to use</h3>
+                    <h3 class="feature__heading">Wordpress Made Easy</h3>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing
                         elit. Libero dolorem laborum consequatur quasi dolore ut
@@ -303,22 +314,22 @@
                     <source
                         type="image/webp"
                         srcset="
-                            public/assets/images/easy.webp    1x,
-                            public/assets/images/easy@2x.webp,
+                            public/assets/images/wordpress.webp    1x,
+                            public/assets/images/wordpress@2x.webp,
                             2x
                         "
                     />
                     <source
                         type="image/jpg"
                         srcset="
-                            public/assets/images/easy.jpg    1x,
-                            public/assets/images/easy@2x.jpg,
+                            public/assets/images/wordpress.jpg    1x,
+                            public/assets/images/wordpress@2x.jpg,
                             2x
                         "
                     />
                     <img
                         class="feature__image"
-                        src="public/assets/images/easy@2x.jpg"
+                        src="public/assets/images/wordpress@2x.jpg"
                         alt=""
                     />
                 </picture>
@@ -351,7 +362,11 @@
                             public/assets/images/ipad@2x.png 2x
                         "
                     />
-                    <img src="public/assets/images/ipad.png" alt="" />
+                    <img
+                        src="public/assets/images/ipad.png"
+                        alt=""
+                        data-aos="flip-up"
+                    />
                 </picture>
                 <ul class="list">
                     <li>
@@ -364,7 +379,10 @@
                                 </svg>
                             </div>
                             <div class="media__body">
-                                <h3 class="media__title media__title-white">
+                                <h3
+                                    class="media__title media__title-white"
+                                    data-aos="slide-right"
+                                >
                                     Easy Start & Managed Updates
                                 </h3>
                                 <p class="showcase__content">
@@ -386,7 +404,10 @@
                                 </svg>
                             </div>
                             <div class="media__body">
-                                <h3 class="media__title media__title-white">
+                                <h3
+                                    class="media__title media__title-white"
+                                    data-aos="slide-right"
+                                >
                                     Staging, GIT & WP-CLI
                                 </h3>
                                 <p class="showcase__content">
@@ -408,7 +429,10 @@
                                 </svg>
                             </div>
                             <div class="media__body">
-                                <h3 class="media__title media__title-white">
+                                <h3
+                                    class="media__title media__title-white"
+                                    data-aos="slide-right"
+                                >
                                     Dynamic Caching & More
                                 </h3>
                                 <p class="showcase__content">
@@ -439,6 +463,7 @@
                         <div class="grid grid--cols-2">
                             <div class="testimonial__image">
                                 <img
+                                    data-aos="zoom-in"
                                     src="public/assets/images/testimonial.jpg"
                                     alt="A happy smiling customer"
                                 />
@@ -454,7 +479,7 @@
                                     </svg>
                                 </span>
                             </div>
-                            <blockquote class="quote">
+                            <blockquote class="quote" data-aos="fade">
                                 <p class="quote__text">
                                     Lorem ipsum dolor sit amet consectetur,
                                     adipisicing elit. Debitis libero sit
@@ -603,5 +628,9 @@
             </div>
         </footer>
         <script src="js/main.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
     </body>
 </html>
